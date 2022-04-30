@@ -30,6 +30,9 @@ body.changeBackground {
 .changeBackground #card{
     background-color: #222222;
 }
+.changeBackground  #title_card{
+    color: white;
+}
 /* back to top */
 #myBtn{
     display: none;
@@ -270,4 +273,60 @@ header .fixed-top{
 .grow_item:hover{
     transition: .3s;
     box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+}
+/* service */
+#service{
+    padding: 100px 0px;
+    background-color: #009f4d;
+}
+.service_content{
+    position: relative;
+}
+.service_content h2{
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    z-index: 0;
+    opacity: .14;
+    font-size: 200px;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+}
+.service_title{
+    color: white;
+}
+.service_title p{
+    font-size: 25px;
+    font-weight: 500;
+}
+.service_item p.btn{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #009f4d40;
+    border-radius: 30px;
+    color: #009f4d;
+    padding: 5px 25px;
+}
+.service_item p:last-of-type{
+    color: #707070;
+    font-size: 17px;
+}
+.card{
+    border:#009f4d 1px solid;
+    border-radius: 20px;
+}
+.service_item img{
+    border-radius: 20px;
+    width: 100%;
+}
+.service_item .card-body a{
+    text-decoration: none;
+    color: black;
+    font-weight: 650;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+.service_item .card-body a:hover{
+    color: #009f4d;
 }
