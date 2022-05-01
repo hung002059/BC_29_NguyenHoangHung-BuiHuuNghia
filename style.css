@@ -588,11 +588,11 @@ header .fixed-top{
     text-align: center;
 }
 
-.carousel-inner {
+#demo .carousel-inner {
     margin-top: 100px;
 }
 
-.carousel-caption {
+#demo .carousel-caption {
     display: flex;
     align-items: center;
     position: absolute;
