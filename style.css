@@ -934,6 +934,7 @@ header .fixed-top{
     text-align: center;
     font-size: 18px;
     top: 9%;
+    margin-left: -520px;
 }
 
 .carousel-caption h3 {
