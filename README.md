@@ -10,7 +10,7 @@ Phân công công việc
     -css Header,Carousel,Grow,Choose,Food,Select
     -js
     -fix lỗi main
-    -tạo github
+    -tạo github<br>
 +Bùi Hữu Nghĩa
     -product
     -info
